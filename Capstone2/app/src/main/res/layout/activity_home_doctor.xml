@@ -140,15 +140,15 @@
 
     <Button
         android:id="@+id/button19"
-        android:layout_width="260dp"
-        android:layout_height="187dp"
+        android:layout_width="278dp"
+        android:layout_height="200dp"
         android:layout_marginStart="70dp"
         android:layout_marginLeft="70dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="70dp"
         android:layout_marginRight="70dp"
         android:layout_marginBottom="28dp"
-        android:text="Picture"
+        android:background="@drawable/doctor_h"
         app:layout_constraintBottom_toTopOf="@+id/button11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

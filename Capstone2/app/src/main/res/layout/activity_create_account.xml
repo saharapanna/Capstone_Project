@@ -59,7 +59,7 @@
         android:layout_width="420dp"
         android:layout_height="130dp"
         android:layout_marginTop="36dp"
-        android:background="#1E38CA"
+        android:background="#3345AF"
         android:text="School Admin ???"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#FFFFFF"
@@ -87,8 +87,8 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="202dp"
-        android:layout_height="47dp"
+        android:layout_width="226dp"
+        android:layout_height="69dp"
         android:layout_marginStart="104dp"
         android:layout_marginLeft="104dp"
         android:layout_marginTop="61dp"
