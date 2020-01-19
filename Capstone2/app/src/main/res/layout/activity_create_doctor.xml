@@ -190,7 +190,7 @@
         android:background="#79048D"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="             Doctor User  "
+        android:text="             DOCTOR USER"
         android:textColor="#FAF8F8"
         android:textSize="30sp"
         android:textStyle="bold"

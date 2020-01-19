@@ -198,7 +198,7 @@
             android:background="#03178B"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="            School Admin  "
+            android:text="            SCHOOL ADMIN"
             android:textColor="#FCF8F8"
             android:textSize="30sp"
             android:textStyle="bold"

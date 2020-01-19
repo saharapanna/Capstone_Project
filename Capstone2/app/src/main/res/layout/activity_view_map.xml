@@ -4,38 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EDFCEE"
-    tools:context=".home_personal">
+    tools:context=".View_map">
+
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="42dp"
-        android:background="#27B32C"
-        android:text="Add New Member"
+        android:layout_width="293dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="26dp"
+        android:background="#067709"
+        android:text="Map to View"
         android:textColor="#FAF7F7"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button15"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="42dp"
-        android:background="#27B32C"
-        android:text="Family Member's Record"
-        android:textColor="#FAF7F7"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button16"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button17" />
 
     <Button
         android:id="@+id/button16"
@@ -43,9 +29,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="42dp"
         android:background="#27B32C"
-        android:text="Vaccines' Information"
+        android:text="Back to Home"
         android:textColor="#FAF7F7"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -148,19 +134,14 @@
 
     <Button
         android:id="@+id/button17"
-        android:layout_width="278dp"
-        android:layout_height="221dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="70dp"
-        android:layout_marginRight="70dp"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/personal_h"
+        android:layout_width="315dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/map"
         app:layout_constraintBottom_toTopOf="@+id/button14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
