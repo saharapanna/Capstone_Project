@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".View_doctor">
+    tools:context=".View_record">
 
     <Button
         android:id="@+id/button40"
@@ -12,7 +12,7 @@
         android:layout_height="72dp"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
-        android:background="#9C27B0"
+        android:background="#68601C"
         android:text="Logout"
         android:textColor="#FAF6F6"
         android:textStyle="bold"
@@ -26,7 +26,7 @@
         android:layout_height="72dp"
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
-        android:background="#9C27B0"
+        android:background="#68601C"
         android:text="Home"
         android:textColor="#FAF6F6"
         android:textStyle="bold"
@@ -40,7 +40,7 @@
         android:layout_height="72dp"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
-        android:background="#9C27B0"
+        android:background="#68601C"
         android:text="Profile"
         android:textColor="#FAF6F6"
         android:textStyle="bold"
@@ -56,7 +56,7 @@
         android:layout_marginLeft="2dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
-        android:background="#9C27B0"
+        android:background="#68601C"
         android:text="Update"
         android:textColor="#FAF6F6"
         android:textStyle="bold"
@@ -70,7 +70,7 @@
         android:layout_height="72dp"
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
-        android:background="#9C27B0"
+        android:background="#68601C"
         android:text="View"
         android:textColor="#FAF6F6"
         android:textStyle="bold"
@@ -95,34 +95,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button25"
-        android:layout_width="175dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="30dp"
-        android:background="#9C27B0"
-        android:text="Update Record"
-        android:textColor="#FCFAFA"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button26" />
 
     <Button
         android:id="@+id/button26"
         android:layout_width="175dp"
         android:layout_height="55dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        android:layout_marginBottom="30dp"
-        android:background="#9C27B0"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="45dp"
+        android:background="#68601C"
         android:text="Back to Home"
         android:textColor="#FCFAFA"
         android:textSize="20sp"
@@ -135,11 +118,12 @@
         android:id="@+id/button27"
         android:layout_width="288dp"
         android:layout_height="340dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="60dp"
-        android:text="View Record - Doctor"
+        android:text="View Record - schoo/person"
         app:layout_constraintBottom_toTopOf="@+id/button25"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -147,13 +131,15 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Patient's Immunization Record"
+        android:layout_marginTop="36dp"
+        android:text="Immunization Record"
         android:textColor="#131212"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button27"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button38" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
